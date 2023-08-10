@@ -1,0 +1,110 @@
+{
+  "categories": [
+    { "id": 1, "name": "TV & Home Theater", "quantity": 4 },
+    { "id": 2, "name": "Computer & Tablets", "quantity": 4 },
+    { "id": 3, "name": "Cellphones", "quantity": 0 },
+    { "id": 4, "name": "Cameras & Camcorders", "quantity": 0 },
+    { "id": 5, "name": "Audio", "quantity": 0 },
+    { "id": 6, "name": "Video Games", "quantity": 0 }
+  ],
+  "brands": [
+    { "id": 1, "name": "Google" },
+    { "id": 2, "name": "Samsung" },
+    { "id": 3, "name": "HP" },
+    { "id": 4, "name": "Apple" },
+    { "id": 5, "name": "Sony" },
+    { "id": 6, "name": "Amazon" },
+    { "id": 7, "name": "Sharp" },
+    { "id": 8, "name": "DELL" }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Amazon - Fire TV Stick with Alexa Voice Remote - Black",
+      "category_id": 1,
+      "category_name": "TV & Home Theater",
+      "brand_id": 6,
+      "description": "Enjoy smart access to videos, games and apps with this …",
+      "price": 39.99,
+      "rate": 4,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5477500_sb.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Google - Chromecast - Black",
+      "category_id": 1,
+      "category_name": "TV & Home Theater",
+      "brand_id": 1,
+      "description": "Google Chromecast: Enjoy a world of entertainment with Google Chromecast …",
+      "price": 35,
+      "rate": 4,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/4397400_sb.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Sharp - LED - 1080p - Smart - HDTV Roku TV - Black",
+      "category_id": 1,
+      "category_name": "TV & Home Theater",
+      "brand_id": 7,
+      "description": "Only at Best Buy Sharp LC-50LB481U LED Roku TV …",
+      "price": 429.99,
+      "rate": 4,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/4863102_sb.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Samsung - Express Streaming Media Player - Black",
+      "category_id": 1,
+      "category_name": "TV & Home Theater",
+      "brand_id": 2,
+      "description": "Watch your favorite programs with this Roku Express streaming player …",
+      "price": 29.99,
+      "rate": 4,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5513500_sb.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Dell - Inspiron 15.6 inch Touch-Screen Laptop - Intel Core i5 - 6GB Memory - 1TB Hard Drive - Black",
+      "category_id": 2,
+      "category_name": "Computer & Tablets",
+      "brand_id": 8,
+      "description": "Dell Inspiron Laptop: Get speed and performance from this 15 …",
+      "price": 499.99,
+      "rate": 4,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5588602_sb.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Apple - MacBook Air® (Latest Model) - 13.3 inch Display - Intel Core i5 - 8GB Memory - 128GB Flash Storage - Silver",
+      "category_id": 2,
+      "category_name": "Computer & Tablets",
+      "brand_id": 4,
+      "description": "MacBook Air features up to 8GB of memory, a fifth …",
+      "price": 999.99,
+      "rate": 4,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/6443034_sb.jpg"
+    },
+    {
+      "id": 7,
+      "name": "HP - 15.6 inch Laptop - AMD A6-Series - 4GB Memory - 500GB Hard Drive - Black",
+      "category_id": 2,
+      "category_name": "Computer & Tablets",
+      "brand_id": 3,
+      "description": "HP Laptop: Experience high-powered computing on the go with …",
+      "price": 259.99,
+      "rate": 4,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5606300_sb.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Apple - MacBook Air® (Latest Model) - 13.3 inch Display - Intel Core i5 - 8GB Memory - 256GB Flash Storage - Silver",
+      "category_id": 2,
+      "category_name": "Computer & Tablets",
+      "brand_id": 4,
+      "description": "MacBook Air features up to 8GB of memory, a fifth …",
+      "price": 1199.99,
+      "rate": 4,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/6444006_sb.jpg"
+    }
+  ]
+}

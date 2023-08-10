@@ -1,0 +1,302 @@
+.header {
+  color: #fff;
+  min-height: 368px;
+  text-align: center;
+  background-color: transparent;
+  background-image: url(../../src/assets/cover.png),linear-gradient(#fbc300,#c98a00);
+  background-position: 50%;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  display: flex;
+}
+
+.header-logo {
+  margin: 0;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.header-title {
+  font-size: 38px;
+  font-weight: 300;
+}
+
+.header .ais-SearchBox {
+  height: 64px;
+  width: 740px;
+}
+
+.ais-SearchBox-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  color: rgba(33,36,61,.8);
+  min-height: 54px;
+  width: 100%;
+  background-color: rgba(65,66,71,.06);
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  padding-left: 56px;
+  font-family: inherit;
+}
+
+.header .ais-SearchBox .ais-SearchBox-input {
+  height: 64px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 4px 48px 0 64px;
+  font-family: Hind,sans-serif;
+  box-shadow: 0 4px 48px rgba(0,0,0,.2);
+}
+
+[class^=ais-] {
+  box-sizing: border-box;
+  font-size: .9rem;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+}
+
+.container-filters {
+  max-width: 260px;
+  flex: 1;
+  margin-right: 60px;
+}
+
+section {
+  display: block;
+}
+
+h2 {
+  color: #21243d;
+  font-family: Hind,sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+body, h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.clear-filters {
+  align-items: center;
+  display: flex;
+}
+
+.ais-Breadcrumb, .ais-ClearRefinements, .ais-CurrentRefinements, .ais-ClearRefinements-button, .ais-GeoSearch, .ais-HierarchicalMenu, .ais-Hits, .ais-Results, .ais-HitsPerPage, .ais-ResultsPerPage, .ais-InfiniteHits, .ais-InfiniteResults, .ais-Menu, .ais-MenuSelect, .ais-NumericMenu, .ais-NumericSelector, .ais-Pagination, .ais-Panel, .ais-PoweredBy, .ais-RangeInput, .ais-RangeSlider, .ais-RatingMenu, .ais-RefinementList, .ais-SearchBox, .ais-SortBy, .ais-SortBy-select, .ais-HitsPerPage-select, .ais-Stats, .ais-ToggleRefinement {
+  color: #21243d;
+  font-size: .75rem;
+}
+
+.ais-ClearRefinements, .ais-ClearRefinements-button {
+  color: rgba(33,36,61,.7);
+}
+
+.container-body .ais-Panel {
+  border-top: 1px solid #ebecf3;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.ais-Panel-header {
+  color: #21243d;
+  letter-spacing: .08rem;
+  text-transform: uppercase;
+  border: none;
+  padding-bottom: 1rem;
+  font-size: .678rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.ais-HierarchicalMenu-list {
+  font-weight: 400;
+}
+
+.ais-HierarchicalMenu-link, .ais-RatingMenu-link, .ais-RefinementList-label {
+  align-items: center;
+  display: flex;
+}
+
+a[class^=ais-] {
+  color: #21243d;
+  text-decoration: none;
+}
+
+.ais-HierarchicalMenu-link, .ais-RatingMenu-item, .ais-RefinementList-item {
+  padding-bottom: 1rem;
+}
+
+.ais-RefinementList-item, .ais-Menu-item, .ais-HierarchicalMenu-item, .ais-RatingMenu-item {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+li {
+  text-align: -webkit-match-parent;
+}
+.ais-HierarchicalMenu-list {
+  font-weight: 400;
+}
+
+.ais-Breadcrumb-list, .ais-CurrentRefinements-list, .ais-HierarchicalMenu-list, .ais-Hits-list, .ais-InfiniteHits-list, .ais-InfiniteResults-list, .ais-Menu-list, .ais-NumericMenu-list, .ais-Pagination-list, .ais-RatingMenu-list, .ais-RefinementList-list, .ais-Results-list, .ais-ToggleRefinement-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* .ais-HierarchicalMenu-link:before {
+  content: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cpath fill='%2390919E' fill-rule='nonzero' d='M0 4l4-4 4 4z'/%3E%3C/svg%3E%0A);
+  height: 8px;
+  width: 8px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  display: flex;
+} */
+.ais-HierarchicalMenu-count, .ais-Menu-count, .ais-RefinementList-count, .ais-ToggleRefinement-count, .ais-RatingMenu-count {
+  color: rgba(33,36,61,.8);
+  letter-spacing: 1.1px;
+  background-color: rgba(65,66,71,.08);
+  border-radius: 4px;
+  align-items: center;
+  margin-left: 8px;
+  padding: 0 4px;
+  font-size: .64rem;
+  font-weight: 600;
+  display: flex;
+}
+.container-results {
+  flex: 3;
+}
+.container-header {
+  min-height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.container-options select {
+  min-width: 100px;
+}
+.container-options {
+  border-bottom: 1px solid #ebecf3;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+  display: flex;
+}
+.container-option {
+  margin-left: 48px;
+}
+.ais-SortBy, .ais-HitsPerPage {
+  position: relative;
+}
+
+.ais-SortBy-select, .ais-HitsPerPage-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  color: #21243d;
+  background: 0 0;
+  border: none;
+  font-family: inherit;
+}
+option {
+  font-weight: normal;
+  display: block;
+  white-space: collapse;
+  word-wrap: nowrap;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+}
+.ais-Hits-list {
+  grid-gap: 80px;
+  grid-template-columns: repeat(auto-fill, minmax(174px, 1fr));
+  display: grid;
+}
+.hit {
+  color: #21243d;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+article {
+  display: block;
+}
+
+.ais-Hits-item {
+  width: 240px;
+}
+.hit-image-container {
+  height: 240px;
+  width: 240px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+}
+img {
+  width: 100%;
+  height: 200px;
+}
+.hit-info-container {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+.hit-category {
+  color: #21243d;
+  opacity: .7;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+}
+.hit h1 {
+  font-size: 14px;
+}
+.hit-description {
+  margin-top: 2px;
+}
+.hit-em {
+  color: #e2a400;
+  font-size: 12px;
+  font-weight: 600;
+}
+strong {
+  font-weight: bold;
+}
+.hit-rating {
+  border: 1px solid rgba(226,164,0,.5);
+  border-radius: 4px;
+  margin-left: 8px;
+  padding: 0 4px;
+}
+.ais-HierarchicalMenu-label, .ais-ClearRefinements, .ais-Hightlight{
+  cursor: pointer;
+}
+.container-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 0;
+}

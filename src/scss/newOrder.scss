@@ -1,0 +1,40 @@
+.order-container {
+  padding: 36px 120px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: #555;
+  width: 100%;
+  .info-title {
+    font-size: 1.375rem;
+    font-weight: 600;
+    color: #007BFF;
+    margin-bottom: 8px;
+  }
+  .order-left {
+    width: 60%;
+  }
+  .order-right {
+    width: 35%;
+    .tour-name {
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+    .tour-info-text {
+      padding-top: 16px;
+      font-size: 1.125rem;
+    }
+    .total-cost {
+      padding-top: 8px;
+      margin-top: 8px;
+      border-top: 1px solid #ccc;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #ee0000;
+    }
+  }
+  .flex{
+    display: flex;
+    align-items: flex-start;
+  }
+}
